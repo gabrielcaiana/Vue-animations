@@ -40,7 +40,8 @@ export default {
       Velocity(
         el,
         {opacity: 1, width: '12rem'},
-        {duration: 1000, easing: 'easeOutCubic', complete: done}
+        // {duration: 1000, easing: 'easeOutCirc', complete: done}
+        {duration: 1000, easing: [60, 5], complete: done}
       )
     },
 
@@ -48,7 +49,7 @@ export default {
       Velocity(
         el,
         {opacity: 0, width: '0rem'},
-        {duration: 500, easing: 'easeInCubic', complete: done}
+        {duration: 500, easing: 'easeInOutCirc', complete: done}
       )
     }
   }
