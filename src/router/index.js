@@ -15,6 +15,13 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/List.vue"),
   },
+
+  {
+    path: "/drawer",
+    name: "Drawer",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Drawer.vue"),
+  },
 ];
 
 const router = new VueRouter({
