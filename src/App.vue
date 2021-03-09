@@ -45,8 +45,8 @@
   opacity: 0;
 }
 
-.slide-fade-leave-to {
-  transform: translateX(-30px);
+.slide-fade-enter {
+  transform: translateX(30px);
   opacity: 0;
 }
 
