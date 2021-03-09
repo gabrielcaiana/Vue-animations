@@ -34,17 +34,4 @@ export default {
   justify-content: center;
   align-items: center;
 }
-
-.fade-enter {
-  opacity: 0;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: .5s ease-out;
-}
-
-.fade-leave-to {
-  opacity: 0;
-}
 </style>
