@@ -60,12 +60,16 @@
   opacity: 0;
 }
 
- .slide-up-enter {
-      transform: translateY(30px);
-      opacity: 0;
-    }
-    
-    .slide-up-enter-active {
-      transition: all 0.5s ease;
-    }
+.slide-up-enter {
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.slide-up-enter-active {
+  transition: all 0.5s ease;
+}
+
+.slide-up-move {
+  transition: transform 0.5s ease-out;
+}
 </style>
