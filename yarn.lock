@@ -4348,6 +4348,11 @@
   "resolved" "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.6.tgz"
   "version" "4.2.6"
 
+"gsap@^3.6.0":
+  "integrity" "sha512-0P3syv1TmYr+A/VZ8UMFzw+s0XoaKSzzDFs8NqkXiJTXI4E/VTi0zRjPgxaPBpiUPPycgRnFjLDe0Tb4dRRf+w=="
+  "resolved" "https://registry.npmjs.org/gsap/-/gsap-3.6.0.tgz"
+  "version" "3.6.0"
+
 "gzip-size@^5.0.0":
   "integrity" "sha512-FNHi6mmoHvs1mxZAds4PpdCS6QG8B4C1krxJsMutgxl5t3+GlRTzzI3NEkifXx2pVsOvJdOGSmIgDhQ55FwdPA=="
   "resolved" "https://registry.npmjs.org/gzip-size/-/gzip-size-5.1.1.tgz"
