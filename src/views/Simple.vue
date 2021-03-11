@@ -22,6 +22,7 @@ export default {
           duration: 1,
           opacity: 1,
           scale: 1,
+          ease: 'bounce.out',
           onComplete: done
       })
     }

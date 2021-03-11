@@ -36,6 +36,13 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Simple.vue"),
   },
+
+  {
+    path: "/stagger",
+    name: "Stagger",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Stagger.vue"),
+  },
 ];
 
 const router = new VueRouter({
