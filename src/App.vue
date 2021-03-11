@@ -4,11 +4,12 @@
       <router-link to="/">Modal</router-link> |
       <router-link to="/lista">Lista</router-link> |
       <router-link to="/drawer">Drawer</router-link> |
-      <router-link to="/cards">Cards</router-link>
+      <router-link to="/cards">Cards</router-link> | 
+      <router-link to="/simple">Simple</router-link>
     </div>
-    <transition name="slide-fade" mode="out-in">
+    <!-- <transition name="slide-fade" mode="out-in"> -->
       <router-view />
-    </transition>
+    <!-- </transition> -->
   </div>
 </template>
 
