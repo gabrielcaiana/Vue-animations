@@ -50,6 +50,20 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/State.vue"),
   },
+
+  {
+    path: "/timeline",
+    name: "TimeLine",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Timeline.vue"),
+  },
+
+  {
+    path: "/master",
+    name: "Master",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Master.vue"),
+  },
 ];
 
 const router = new VueRouter({
